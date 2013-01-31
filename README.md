@@ -31,20 +31,20 @@ Installation instructions
 		// Utility selector to show an alert with a title, a message and a button to dimiss.
 		+ (void)showWithTitle:(NSString *)title
 		              message:(NSString *)message
-		              handler:(MNMAlertHandler)handler;
+		              handler:(UIAlertViewHandler)handler;
 
 		// Utility selector to show an alert with an "Error" title, a message and a button to dimiss.
 		+ (void)showErrorWithMessage:(NSString *)message
-		                     handler:(MNMAlertHandler)handler;
+		                     handler:(UIAlertViewHandler)handler;
 
 		// Utility selector to show an alert with a "Warning" title, a message and a button to dimiss.
 		+ (void)showWarningWithMessage:(NSString *)message
-		                       handler:(MNMAlertHandler)handler;
+		                       handler:(UIAlertViewHandler)handler;
 
 		// Utility selector to show a confirmation dialog with a title, a message and two buttons to accept or cancel.
 		+ (void)showConfirmationDialogWithTitle:(NSString *)title
 		                                message:(NSString *)message
-		                                handler:(MNMAlertHandler)handler;
+		                                handler:(UIAlertViewHandler)handler;
 
 5. You can see some examples in `ViewController` class.
 
